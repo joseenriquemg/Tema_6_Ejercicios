@@ -3,8 +3,8 @@ package boletin01;
 public class HoraExacta extends Hora {
     private int segundos;
     
-    public HoraExacta(int hora, int minutos, int segundos) {
-        super(hora, minutos);
+    public HoraExacta(int hora, int minuto, int segundos) {
+        super(hora, minuto);
         if (segundos >= 0 && segundos <= 59) {
             this.segundos = segundos;
         } 
